@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/flex-box-froggy/static/css/main.ba40def5.css",
+    "main.js": "/flex-box-froggy/static/js/main.8dba6b3a.js",
+    "static/media/frog-yellow.svg": "/flex-box-froggy/static/media/frog-yellow.e7cd73c6d518c8b33258.svg",
+    "static/media/frog-green.svg": "/flex-box-froggy/static/media/frog-green.a6c0c251337899c10928.svg",
+    "static/media/frog-red.svg": "/flex-box-froggy/static/media/frog-red.126f8017f90361d51499.svg",
+    "static/media/lilypad-yellow.svg": "/flex-box-froggy/static/media/lilypad-yellow.aeba7ed560132f986f0b.svg",
+    "static/media/lilypad-red.svg": "/flex-box-froggy/static/media/lilypad-red.6a0967e4a13facb6f307.svg",
+    "static/media/lilypad-green.svg": "/flex-box-froggy/static/media/lilypad-green.45d099bb2846c70a8414.svg",
+    "index.html": "/flex-box-froggy/index.html",
+    "main.ba40def5.css.map": "/flex-box-froggy/static/css/main.ba40def5.css.map",
+    "main.8dba6b3a.js.map": "/flex-box-froggy/static/js/main.8dba6b3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba40def5.css",
+    "static/js/main.8dba6b3a.js"
+  ]
+}
