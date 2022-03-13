@@ -1,0 +1,99 @@
+.board {
+  position: sticky;
+  top: 0;
+  width: 50vw;
+  height: 50vw;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.pond,
+.background {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+}
+
+.background {
+  z-index: 10;
+  border-radius: 0 0 0 10px;
+  background-color: #1f5768;
+}
+
+.pond {
+  z-index: 20;
+}
+
+.lilypad,
+.frog {
+  position: relative;
+  width: 20%;
+  height: 20%;
+  overflow: hidden;
+}
+
+.lilypad .bg,
+.frog .bg {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.frog .bg {
+  transform: scale(1);
+  animation: pulse 1s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1, 1);
+  }
+  20% {
+    transform: scale(0.9);
+  }
+}
+
+.frog.green .bg {
+  background-image: url('../../assets/icons/frog-green.svg');
+  background-size: 60% 60%;
+}
+
+.lilypad.green .bg {
+  background-image: url('../../assets/icons/lilypad-green.svg');
+  background-size: 90% 90%;
+  transform: scale(0.887476) rotate(309.604deg);
+}
+
+.frog.yellow .bg {
+  background-image: url('../../assets/icons/frog-yellow.svg');
+  background-size: 60% 60%;
+}
+
+.lilypad.yellow .bg {
+  background-image: url('../../assets/icons/lilypad-yellow.svg');
+  background-size: 90% 90%;
+  transform: scale(0.887476) rotate(309.604deg);
+}
+
+.frog.red .bg {
+  background-image: url('../../assets/icons/frog-red.svg');
+  background-size: 60% 60%;
+}
+
+.lilypad.red .bg {
+  background-image: url('../../assets/icons/lilypad-red.svg');
+  background-size: 90% 90%;
+  transform: scale(0.887476) rotate(309.604deg);
+}

@@ -1,0 +1,45 @@
+section {
+    box-sizing: border-box;
+    min-height: 100%;
+  }
+  
+  .sidebar {
+    width: 50%;
+    min-width: 300px;
+    position: relative;
+    padding: 2em;
+    background-color: #43a047;
+    font-size: 15px;
+  }
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -0.5rem;
+    justify-content: space-between;
+  }
+  
+  .title {
+    margin: 0.5rem 0 0;
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive;
+    font-size: 28px;
+  }
+  
+  .title {
+    transform: scale(1);
+    animation: logo 1s linear infinite;
+  }
+  
+  @keyframes logo {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(1, 1);
+    }
+    20% {
+      transform: scale(0.9);
+    }
+  }
+  

@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  min-width: 600px;
+  margin: 0;
+  background-color: #43a047;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'PT Sans', sans-serif;
+}
+
+.diva {
+  display: flex;
+}
